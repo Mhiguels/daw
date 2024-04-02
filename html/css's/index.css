@@ -1,0 +1,159 @@
+/* GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+
+body {
+    height: 100vh;  
+    background-color: black; 
+}
+
+header {
+display: flex;
+
+}
+
+.interface {
+  
+    display: flex;
+    max-width: 1280px;
+    gap: 68px;
+    padding: 10px
+}
+
+.flex {
+    display: flex;
+}
+
+.mdrf-botao button{
+    padding: 10px 40px;
+    font-size: 20px;
+   font-weight: 100;
+   color: #84aa47;
+   background-color: azure;
+   border: 0;
+   border-radius: 30px;
+   cursor: pointer;
+   }
+
+   
+
+   /* ESTILO CABEÇALHO */
+
+header {
+    padding: 5px 5%;
+    color: azure;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+   
+    justify-content: left;
+
+}
+
+.escrita {
+    
+    justify-content: center;
+    padding: 5px;
+    font-size: 20pt;
+}
+
+/* BARRA DE NAVEGAÇAO */
+
+nav {
+    Border-top: 0.4px solid #84aa47
+}
+
+ nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav ul li {
+    margin: 50px;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    transition: .2s;
+}
+
+nav a:hover {
+    color: #84aa47;
+    transform: scale(1.05);
+}
+
+/* ESTILO CONTEUDO DO SITE */
+
+main {
+    padding: 50px;
+    Border-top: 0.4px solid #84aa47
+}
+
+section.topo-site {
+    padding: 40px 4%;
+}
+
+section.topo-site .flex {
+    align-items: center;
+    gap: 50px;
+}
+
+.txt-site h1 { 
+    color: azure;
+    font-size: 50px;
+}
+
+.txt-site p {
+    color: azure;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.txt-site span {
+    color: #84aa47;
+}
+
+.img-site img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.mdrf-botao button:hover {
+    box-shadow: 0px 0px 5px #84aa47;
+
+}
+
+/* RODAPE DO SITE */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Border-top: 0.4px solid #84aa47
+}
+
+section.rodape {
+    display: flex;
+    padding: 20px;
+
+}
+
+.txt-footer {
+    color: azure;
+    padding: 20px;
+}
